@@ -1,0 +1,2 @@
+# Bu proje Python standart kütüphanesi ile çalışır.
+# Ek paket gerektirmez.

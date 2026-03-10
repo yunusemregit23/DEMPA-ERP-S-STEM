@@ -1,0 +1,10 @@
+{
+  "project_name": "Elazığ Karma Kullanım Blok - A",
+  "metrics": {
+    "facade_complexity_score": 8.2,
+    "glazing_ratio": 0.58,
+    "wet_area_count": 7,
+    "max_structural_span_m": 8.6,
+    "circulation_area_ratio": 0.24
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "facade_complexity_min": 6.5,
+  "glazing_ratio_max": 0.5,
+  "wet_area_count_min": 5,
+  "max_structural_span_m_max": 7.5,
+  "circulation_area_ratio_max": 0.2
+}

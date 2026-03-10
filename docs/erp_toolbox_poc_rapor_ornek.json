@@ -1,0 +1,50 @@
+{
+  "project_name": "Elazığ Karma Kullanım Blok - A",
+  "summary": {
+    "risk_score": 11,
+    "risk_level": "critical",
+    "finding_count": 5,
+    "missing_count": 0
+  },
+  "active_rules": {
+    "facade_complexity_min": 7.0,
+    "glazing_ratio_max": 0.55,
+    "wet_area_count_min": 6.0,
+    "max_structural_span_m_max": 8.0,
+    "circulation_area_ratio_max": 0.22
+  },
+  "findings": [
+    {
+      "rule": "Cephe karmaşıklığı",
+      "severity": "high",
+      "reason": "Yüksek cephe kırıklılığı/özel detay üretimi işçilik ve kalıp maliyetini artırır.",
+      "suggestion": "Cephe modül tekrarını artır; özel detay oranını düşür."
+    },
+    {
+      "rule": "Cam oranı",
+      "severity": "medium",
+      "reason": "Yüksek cam oranı cephe, doğrama ve iklimlendirme maliyetini yükseltebilir.",
+      "suggestion": "Cephede opak/pencere dengesini iklim ve maliyet hedefiyle optimize et."
+    },
+    {
+      "rule": "Islak hacim sayısı",
+      "severity": "medium",
+      "reason": "Tesisat hatlarının artması toplam maliyeti ve bakım karmaşıklığını artırır.",
+      "suggestion": "Islak hacim kümelenmesi ile tesisat omurgasını kısalt."
+    },
+    {
+      "rule": "Taşıyıcı açıklık",
+      "severity": "high",
+      "reason": "Büyük açıklıklar kesit ve donatı ihtiyacını artırarak karkas maliyetini büyütür.",
+      "suggestion": "Açıklıkları azaltacak aks düzeni veya hibrit taşıyıcı çözüm değerlendir."
+    },
+    {
+      "rule": "Sirkülasyon oranı",
+      "severity": "low",
+      "reason": "Fazla sirkülasyon alanı satılabilir/kullanılabilir alan verimini düşürebilir.",
+      "suggestion": "Koridor ve çekirdek konumunu yeniden düzenleyerek net alanı artır."
+    }
+  ],
+  "missing_metrics": [],
+  "note": "Eksik veriler tamamlanmadan karar önerisi nihai kabul edilmemelidir."
+}
